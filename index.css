@@ -1,0 +1,10 @@
+
+.img-box{
+  width:400px;
+}
+@media screen and (min-width: 480px) and (max-width:950px){
+  .img-box{
+    width:200px;
+    object-fit: cover;
+  }
+}
